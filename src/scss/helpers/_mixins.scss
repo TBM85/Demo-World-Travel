@@ -1,0 +1,11 @@
+@mixin logo {
+  font-family: 'Alfa Slab One', cursive;
+  color: $white;
+  -webkit-text-stroke-color: $blue_dark;
+  -webkit-text-stroke-width: thin;
+}
+
+@mixin color_set {
+  color: $white;
+  background-color: $blue_dark;  
+}
