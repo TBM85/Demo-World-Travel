@@ -3,6 +3,24 @@ import { FaBars } from 'react-icons/fa';
 import { menu_items } from '../store';
 
 class Header extends Component {
+  state = {
+    toggle: true
+  }
+  
+  // Make the collapse button works
+  handleClick = () => {
+    const { toggle } = this.state;
+
+    this.setState(prevState => ({
+      toggle: !prevState.toggle
+    }));
+
+    const btnCollapse = document.querySelector('.collapse');
+    toggle === true
+      ? btnCollapse.style.display = "block"
+      : btnCollapse.style.display = "none"  
+  }
+  
   render() {
     return(
       <header id="header">
