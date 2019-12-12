@@ -2,6 +2,28 @@
 @import './helpers/_mixins';
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans&display=swap');
 
+/* Small devices (landscape phones, 767px and down) */
+@media (max-width: 767px) {
+  #header {
+    padding: 1em 1em 0;
+  } 
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #header {
+    padding: 1.4em 4em 0;
+  } 
+}
+/* Large devices (desktops, 991px and down) */
+@media (max-width: 991px) { 
+  #header nav ul {
+    background: #00000054;
+    width: fit-content;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+  }
+} 
+
 /* GENERAL */
 * {
   margin: 0;
