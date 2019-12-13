@@ -6,6 +6,19 @@
 @media (max-width: 767px) {
   #header {
     padding: 1em 1em 0;
+  }
+  section p:nth-child(2) {
+    max-width: 90%;
+  }
+  #tourism {
+    .small-image,
+    .large-image {
+      width: 90%;
+    }
+    p:nth-child(2) {
+      max-width: 80%;
+    }
+    padding: 2.5em 0 0.5em;
   } 
 }
 /* Medium devices (tablets, 768px and up) */
@@ -13,6 +26,17 @@
   #header {
     padding: 1.4em 4em 0;
   } 
+  section p:nth-child(2) {
+    max-width: 60%;
+  }
+  #tourism {
+    .small-image {
+      width: 30%;
+    }
+    .large-image {
+      width: 70%;
+    }
+  }
 }
 /* Large devices (desktops, 991px and down) */
 @media (max-width: 991px) { 
@@ -32,6 +56,14 @@
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+#header,
+#tourism {
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .btn-dark-blue {
   @include color_set;
   border-color: $white;
@@ -43,17 +75,37 @@
   border-color: $white;
 }
 
+/* SECTIONS */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em 3.5em 1em;
+  h2 {
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+    color: $blue_dark;
+  }
+  p {
+    line-height: 1.8;
+  }
+  hr {
+    width: 15%;
+    height: 0.2em;
+    background-color: $blue_dark;
+    border: 0;
+    margin-bottom: 3em;
+  }
+}
+
 /* HEADER */
 #header {
   color: $white;
   background: url('https://cdn.pixabay.com/photo/2017/12/01/03/17/landscape-2990060_1280.jpg') no-repeat center #6b6b6b;
   background-size: cover;
   background-blend-mode: overlay;
-  min-height: 100vh;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   nav {
     span {
       @include logo;
