@@ -97,3 +97,41 @@
     opacity: 1;
   }
 }
+
+/* TOURISM */
+#tourism {
+  .images {
+    @include center;
+  }
+  #container {
+    position: relative;
+    .overlay {
+      opacity: 0;
+      background-color: #55555533;
+      border-radius: 0.25em;
+      padding: 1em;
+      transition: all .5s ease;
+      color: $white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  #container:hover .overlay {
+    opacity: 1;
+  }
+  img {
+    list-style: none;
+    height: 260px;
+    min-height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0.5em;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+  }
+}

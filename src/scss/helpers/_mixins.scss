@@ -9,3 +9,9 @@
   color: $white;
   background-color: $blue_dark;  
 }
+
+@mixin center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
