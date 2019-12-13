@@ -57,7 +57,12 @@
   font-family: 'Open Sans', sans-serif;
 }
 #header,
-#tourism {
+#services {
+  background-color: $blue_light;
+}
+#header,
+#tourism,
+#services {
   min-height: 100vh;
   top: 0;
   left: 0;
@@ -185,5 +190,20 @@ section {
     background-clip: content-box;
     background-size: cover;
     background-position: center;
+  }
+}
+
+/* SERVICES */
+#services {
+  .grid li {
+    list-style: none;
+    h3 {
+      margin: 0.2em 0 0.4em;
+    }
+  }
+  svg {
+    font-size: 3em;
+    margin-top: 0.6em;
+    color: $blue_green;
   }
 }
