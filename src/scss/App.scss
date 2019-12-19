@@ -80,7 +80,8 @@
 }
 #header,
 #tourism,
-#services {
+#services,
+#packages {
   min-height: 100vh;
   top: 0;
   left: 0;
@@ -223,5 +224,43 @@ section {
     font-size: 3em;
     margin-top: 0.6em;
     color: $blue_green;
+  }
+}
+
+/* PACKAGES */
+#packages {
+  hr {
+    margin-bottom: 1.6em;
+  }
+  .cards {
+    width: 100%;
+    margin: auto;
+    @include center;
+    .card {
+      width: 18rem;
+      margin: 0.5em;
+      img {
+        height: 12em;
+      }
+      .card-body {
+        padding: 0.5em;
+        background-color: $yellow;
+        .card-title {
+          font-weight: bold;
+          color: $blue_dark;
+        }
+        button {
+          color: $blue_dark;
+          background: transparent;
+          padding: 0.15em 0.35em;
+          margin: 0.25em;
+          border: none;
+        }
+        button:hover {
+          @include color_set;
+          border-color: $blue_dark;
+        }
+      }
+    }
   }
 }
