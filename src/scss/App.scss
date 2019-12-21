@@ -310,3 +310,17 @@ section {
     color: $blue_green;
   }
 }
+
+/* FOOTER */
+#footer {
+  @include color_set;
+  padding: 1em;
+  p {
+    margin: 0;
+  }
+  svg {
+    color: $white;
+    padding: 0 0.2em 0 0;
+    font-size: 1.2em;
+  }
+}

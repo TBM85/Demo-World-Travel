@@ -4,6 +4,7 @@ import Tourism from './components/Tourism';
 import Services from './components/Services';
 import Packages from './components/Packages';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './scss/App.scss';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Services />
       <Packages />
       <Contact />
+      <Footer />
     </div>
   );
 }
