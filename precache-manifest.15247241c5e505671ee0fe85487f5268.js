@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c661c393a6205c3d0cd32e911fb1b32",
+    "revision": "9e8c8c66ca98f573c14d542ffadea7a5",
     "url": "/Demo-World-Travel/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Demo-World-Travel/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "9507bd0179649233b1f5",
-    "url": "/Demo-World-Travel/static/css/main.9cd59f21.chunk.css"
+    "revision": "e58180c2a2b1e8c41760",
+    "url": "/Demo-World-Travel/static/css/main.1ff1187a.chunk.css"
   },
   {
     "revision": "6e66faea6fcf502bcf61",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Demo-World-Travel/static/js/2.72788468.chunk.js.LICENSE"
   },
   {
-    "revision": "9507bd0179649233b1f5",
+    "revision": "e58180c2a2b1e8c41760",
     "url": "/Demo-World-Travel/static/js/main.0c19cb77.chunk.js"
   },
   {
