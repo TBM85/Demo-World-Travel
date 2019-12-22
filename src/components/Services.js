@@ -1,7 +1,7 @@
 import React from 'react';
 import { services } from '../store';
 
-const Packages = () => {
+const Services = () => {
   return(
     <section id="services">
       <h2 className="title">Our Services</h2>
@@ -21,4 +21,4 @@ const Packages = () => {
   );
 }
 
-export default Packages;
+export default Services;
