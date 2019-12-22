@@ -324,3 +324,21 @@ section {
     font-size: 1.2em;
   }
 }
+
+/* GO UP BUTTON */
+#go-up-button {
+  opacity: 0.2;
+  width: 2em;
+  height: 2em;
+  position: fixed;
+  bottom: 0.5em;
+  right: 0.5em;
+  background-color: transparent;
+  border: none;
+  svg {
+    font-size: 2em;
+  }
+}
+#go-up-button:hover {
+  opacity: 1;
+}

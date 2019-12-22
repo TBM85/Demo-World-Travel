@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Packages from './components/Packages';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import GoUpButton from './components/GoUpButton';
 import './scss/App.scss';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Packages />
       <Contact />
       <Footer />
+      <GoUpButton />
     </div>
   );
 }
