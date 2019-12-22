@@ -369,3 +369,17 @@ section {
   display: block;
   background-color: #000000b5;
 }
+
+/* SWAL BUTTON */
+.swal-button {
+  color: $blue_dark;
+  background: transparent;
+  padding: 0.15em 0.35em;
+  margin: 0.25em;
+  border: none;
+  font-size: 1.4rem;
+}
+.swal-button:not([disabled]):hover {
+  @include color_set;
+  border-color: $blue_dark;
+}
