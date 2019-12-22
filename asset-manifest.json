@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Demo-World-Travel/static/css/main.abb829cc.chunk.css",
+    "main.js": "/Demo-World-Travel/static/js/main.0c19cb77.chunk.js",
+    "main.js.map": "/Demo-World-Travel/static/js/main.0c19cb77.chunk.js.map",
+    "runtime-main.js": "/Demo-World-Travel/static/js/runtime-main.52e823c9.js",
+    "runtime-main.js.map": "/Demo-World-Travel/static/js/runtime-main.52e823c9.js.map",
+    "static/css/2.64a99b10.chunk.css": "/Demo-World-Travel/static/css/2.64a99b10.chunk.css",
+    "static/js/2.72788468.chunk.js": "/Demo-World-Travel/static/js/2.72788468.chunk.js",
+    "static/js/2.72788468.chunk.js.map": "/Demo-World-Travel/static/js/2.72788468.chunk.js.map",
+    "index.html": "/Demo-World-Travel/index.html",
+    "precache-manifest.4f438a8c481832a62bb418bfe99175fd.js": "/Demo-World-Travel/precache-manifest.4f438a8c481832a62bb418bfe99175fd.js",
+    "service-worker.js": "/Demo-World-Travel/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/Demo-World-Travel/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.abb829cc.chunk.css.map": "/Demo-World-Travel/static/css/main.abb829cc.chunk.css.map",
+    "static/js/2.72788468.chunk.js.LICENSE": "/Demo-World-Travel/static/js/2.72788468.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52e823c9.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.72788468.chunk.js",
+    "static/css/main.abb829cc.chunk.css",
+    "static/js/main.0c19cb77.chunk.js"
+  ]
+}
