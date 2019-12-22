@@ -6,6 +6,9 @@
 @media (max-width: 767px) {
   #header {
     padding: 1em 1em 0;
+    h1 {
+      font-size: 2.5em;
+    }
   }
   section p:nth-child(2) {
     max-width: 90%;
@@ -42,6 +45,9 @@
 @media (min-width: 768px) {
   #header {
     padding: 1.4em 4em 0;
+    h1 {
+      font-size: 3.5em;
+    }
   } 
   section p:nth-child(2) {
     max-width: 60%;
@@ -175,7 +181,6 @@ section {
     animation: 1s fadein 0.5s forwards;
     opacity: 0;
     h1 {
-      font-size: 3.5em;
       margin-bottom: 0.3em;
       @include logo;
     }
