@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 import { packages } from '../store';
+import Modal from './Modal';
 
 class Packages extends Component {
+  handleOpenBtnDetails = (e) => {
+    let open = e.target.getAttribute('data-target');
+    document.getElementById(open).classList.add('show');
+  }
+
+  handleCloseBtnDetails = (e) => {
+    let close = e.target.getAttribute('data-dismiss');
+    document.getElementById(close).classList.remove('show');
+  }
+
   render() {
     return(
       <section id="packages">
@@ -13,9 +24,18 @@ class Packages extends Component {
               <img src={pack.image} alt={pack.place} />
               <div className="card-body">
                 <h3 className="card-title">{pack.place}</h3>
-                <button type="button" className="btn btn-light" data-toggle="modal" data-target={pack.place}>
+                <button type="button" className="btn btn-light" data-toggle="modal" data-target={pack.place} onClick={this.handleOpenBtnDetails}>
                   See details
                 </button>
+                <Modal 
+                  place={pack.place}
+                  time={pack.time}
+                  includes={pack.includes}
+                  excursions={pack.excursions}
+                  prices={pack.prices}
+                  packages={packages}
+                  handleCloseBtnDetails={this.handleCloseBtnDetails}
+                />
               </div>
             </div>
           ))}
