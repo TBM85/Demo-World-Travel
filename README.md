@@ -4,6 +4,8 @@
 ## Description
 This is a single page application built with React JS and Bootstrap.
 
+![World Travel](public/images/World_Travel.png)
+
 ## Resources
 * [React Icons](https://react-icons.netlify.com/#/)
 * [Alfa Slab One and Open Sans Fonts](https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans&display=swap)
