@@ -20,4 +20,4 @@ This is a single page application built with React JS and Bootstrap.
 * Start the app: npm start 
 
 ## License
-Copyright (c) 2019 Tania Ballester Marsal. This project is using [MIT License](LICENSE.md)
+Copyright (c) 2019 Tania Ballester. This project is using [MIT License](LICENSE.md)
